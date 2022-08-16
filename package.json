@@ -1,0 +1,27 @@
+{
+  "name": "convert-allfiletypes-to-pdf",
+  "version": "1.0.0",
+  "description": "convert all files into pdf format and merge multiple pdf also",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivraj-Star/convert-allfiletypes-to-pdf.git"
+  },
+  "keywords": [
+    "convert-allfiletypes-to-pdf"
+  ],
+  "author": "shivraj padwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivraj-Star/convert-allfiletypes-to-pdf/issues"
+  },
+  "homepage": "https://github.com/Shivraj-Star/convert-allfiletypes-to-pdf#readme",
+  "dependencies": {
+    "libreoffice-convert": "^1.4.1",
+    "pdf-merger-js": "^4.0.0",
+    "pdfkit": "^0.13.0"
+  }
+}
